@@ -24,8 +24,8 @@ body {
     height: 95vh;
     background-image: linear-gradient(
         to top left,
-        rgba(13, 13, 160, 0.65),
-        rgba(33, 33, 221, 0.65)),
+        rgba(13, 13, 160, 0.55),
+        rgba(33, 33, 221, 0.55)),
         url(../images/future.gif);
         background-size: cover;
         background-position: top;

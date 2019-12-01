@@ -1,0 +1,40 @@
+.composition {
+    position: relative;
+    // display: inline-block;
+    // float: left;
+
+    &__photo {
+        width: 25%;
+        // box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+        border-radius: 2px;
+        // position: absolute;
+        background-color: $color-grey-light-1;
+        margin-right: 2rem;
+
+        // float: right;
+        display: inline-block;
+        transition: all .2s;
+
+        &:hover {
+            transform: scale(1.25);
+        }
+    
+
+        // &--p1 {
+        //     left: 0;
+        //     top: -2rem;
+        //     float: left;
+        //     display: block;
+        // }
+
+        // &--p2 {
+        //     right: 0;
+        //     top: 2rem;
+        // }
+
+        // &--p3 {
+        //     left: 20%;
+        //     top: 10rem;
+        // }
+    }
+}

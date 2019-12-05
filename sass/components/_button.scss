@@ -49,6 +49,60 @@
         }
     }
 
+    &--grey {
+        background-color: $color-grey-gradient-1;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-grey-gradient-1;
+        }
+    }
+
+    &--orange {
+        background-color: $color-secondary-light;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-secondary-light;
+        }
+    }
+
+    &--green {
+        background-color: $color-green-light;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-green-light;
+        }
+    }
+
+    &--red {
+        background-color: $color-red-light;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-red-light;
+        }
+    }
+
+    &--purple {
+        background-color: $color-purple-light;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-purple-light;
+        }
+    }
+
+    &--turquoise {
+        background-color: $color-turquoise-light;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-turquoise-light;
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;

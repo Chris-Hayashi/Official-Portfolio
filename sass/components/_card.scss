@@ -48,6 +48,10 @@
             &-6 {
                 background-image: linear-gradient(to right bottom, $color-purple-light, $color-purple-dark);
             }
+
+            &-7 {
+                background-image: linear-gradient(to right bottom, $color-turquoise-light, $color-turquoise-dark);
+            }
         }
     }
 
@@ -91,6 +95,10 @@
 
         &--6 {
             background-image: linear-gradient(to right bottom, $color-purple-light, $color-purple-dark), url(../../assets/images/movie.jpg);
+        }
+
+        &--7 {
+            background-image: linear-gradient(to right bottom, $color-turquoise-light, $color-turquoise-dark), url(../../assets/images/liri.jpg);
         }
     }
 
@@ -146,6 +154,12 @@
             background-image: linear-gradient(to right bottom,
             rgba($color-purple-light, .85),
             rgba($color-purple-dark, .85));
+        }
+
+        &--7 {
+            background-image: linear-gradient(to right bottom,
+            rgba($color-turquoise-light, .85),
+            rgba($color-turquoise-dark, .85));
         }
     }
 

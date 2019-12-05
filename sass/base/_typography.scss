@@ -72,3 +72,35 @@ body {
         margin-bottom: 3rem;
     }
 }
+
+.text-color {
+    line-height: 1;
+
+    &-1 {
+        background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+    }
+
+    &-2 {
+        background-image: linear-gradient(to right, $color-grey-gradient-1, $color-grey-gradient-2);
+    }
+
+    &-3 {
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    }
+
+    &-4 {
+        background-image: linear-gradient(to right, $color-green-light, $color-green-dark);
+    }
+
+    &-5 {
+        background-image: linear-gradient(to right, $color-red-light, $color-red-dark);
+    }
+
+    &-6 {
+        background-image: linear-gradient(to right, $color-purple-light, $color-purple-dark);
+    }
+
+    &-7 {
+        background-image: linear-gradient(to right, $color-turquoise-light, $color-turquoise-dark);
+    }
+}

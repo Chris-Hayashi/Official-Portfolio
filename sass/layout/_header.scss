@@ -8,7 +8,22 @@
         background-size: cover;
         background-position: top;
         position: relative;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 75vh, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 0, 100% 75vh, 0 100%);
+
+    &__logo-box {
+        position: absolute;
+        top: 3rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        background-color: $color-white;
+        font-size: 6rem;
+        display: inline-block;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
 
     &__text-box {
         position: absolute;

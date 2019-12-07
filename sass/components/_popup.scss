@@ -34,12 +34,20 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(tab-port) {
+            display: none;
+        }
     }
 
     &__img {
         display: block;
         width: 100%;
         // height: 100%;
+
+        @include respond(tab-port) {
+            
+        }
     }
 
     &__text {

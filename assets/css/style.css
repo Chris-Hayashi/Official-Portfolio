@@ -460,6 +460,9 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 56.25em) {
+      .popup__right {
+        display: none; } }
   .popup__img {
     display: block;
     width: 100%; }

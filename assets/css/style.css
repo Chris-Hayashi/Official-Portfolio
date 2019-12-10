@@ -541,11 +541,11 @@ body {
   .footer__copyright {
     border-top: 1px solid #777;
     padding-top: 2rem;
-    width: 40%;
+    width: 45%;
     float: right; }
     @media (max-width: 56.25em) {
       .footer__copyright {
-        width: 100%;
+        width: 10%;
         float: none;
         text-align: center; } }
 
@@ -603,8 +603,8 @@ body {
       clip-path: polygon(0 0, 100% 0, 100% 0, 100% 85vh, 0 100%); } }
   @media (max-width: 56.25em) {
     .header {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 90vh, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 0, 100% 90vh, 0 100%); } }
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 85vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 100% 85vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
     top: 3rem;

@@ -9,17 +9,13 @@ var PORT = process.env.PORT || 8080;
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-app.use(express.static("./app/public"));
+app.use(express.static("./assets/public"));
 
 
-var htmlRoutes = require("./app/routes/html-routes");
+var htmlRoutes = require("./assets/routes/html-routes");
 app.use(htmlRoutes);
-
-
-// app.use(console.log(SHA256("Message")));
-
 
 
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
-});s
+});
